@@ -1,0 +1,352 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+*::selection{
+    color:white;
+    background-color: #000;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: #fff;
+    
+
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+}
+
+#home{
+    background-image: url(https://img.freepik.com/free-photo/young-handyman-measuring-voltage_23-2147743072.jpg?t=st=1724887335~exp=1724890935~hmac=63b2fd42264ac5e9cde07f53e75a50712ec53eccb17d99326792282cb456ce74&w=1060);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+#nav{
+    width: 100%;
+    padding : 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+#nav #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+#nav img{
+    width : 100px
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: 400;
+    color : #000;
+    font-size: 1vw;
+    letter-spacing: -1px;
+}
+
+#nav i{
+    margin-top:3px;
+    font-size: 20px;
+}
+
+#home #homemain{
+    width:100%;
+    padding:15vw 16vw;
+}
+#homemain h1{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.headings{
+    display: flex;
+    gap:40px;
+}
+#homemain .headings h1{
+    color:black;
+    -webkit-text-stroke: white;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: 1;
+    letter-sp   acing: -5px;
+    margin-left: 0px;
+}
+
+#homelast p{
+    font-size : 1.5vw;
+    font-weight: 400;
+    letter-spacing: -.08vw;
+    width: 70%;
+}
+
+#homelast p::selection{
+    color: white;
+    background-color: #000;
+}
+
+.features{
+    padding: 10vw 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightyellow;
+}
+#fheading h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+#fheading h1:nth-child(2){
+    color:transparent;
+    -webkit-text-stroke: 1px #000;
+}
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 70vw;
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: hidden;
+    width:45%;
+    height: inherit;
+   
+    
+
+}
+.ele{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+   
+}
+.ele h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin : 1.6vw 0;
+
+}
+.ele h4{
+    opacity: 0.5;
+}
+.ele h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:45%;
+    height: inherit;
+}
+
+#fright .images{
+    width: 90%;
+    height: 75%;
+    background-color: grey;
+}
+#fright .images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button:hover{
+    background-color: rgb(233,226,218);
+    color:white;
+    transition: background-color 0.5s ease
+
+}
+
+.btn button{
+    padding : 1.3vw 2.5vw;
+    border-radius: 100px;
+    border : 0.1px solid black;
+    background-color: #fff;
+    font-size : 1vw;
+    font-weight: 800;
+    letter-spacing: -.5px;
+}
+
+#dev{
+    width: 100%;
+    padding : 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height:1 ;
+    text-transform: capitalize;
+}
+
+
+#dev p{
+    font-size : 1.5vw;
+    margin-top:3vw;
+    letter-spacing: -.5px;
+    width: 54%;
+}
+
+#slides{
+    padding: 2vw 8vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.slide{
+    width:30%;
+}
+
+.slide .img{
+    width: 100%;
+    height: 220px;
+    background-color: grey;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.slide .tag{
+    border-radius:100px;
+    width: fit-content;
+    padding : 10px 22px;
+    margin : 20px 0px;
+    background-color: #f5f0f0;
+}
+
+.slide .img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+  height: ;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
